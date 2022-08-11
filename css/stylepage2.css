@@ -1,0 +1,252 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: sinema;
+    src: url(/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sinema;
+}
+
+
+
+
+.navbar div{
+    width: 100%;
+}
+
+.navbar{
+    z-index: 999;
+}
+
+.collapse-div{
+    width: 100%;
+}
+
+.navbar-brand{
+    display: block;
+    float: left;
+}
+
+
+.navbar-collapse{
+    transition: all ease 500ms;
+}
+
+.searchheader{
+    width: 30%;
+}
+
+
+
+.txttoppage{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.txttoppage h3 , .txttoppage h6{
+    padding-left: 10px;
+}
+
+.txttoppage div{
+    width: 50%;
+    text-align: justify;
+}
+
+.item-list{
+    margin: 10px;
+    text-align: right;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.item-list img{
+    width: 400px;
+    padding:10px;
+    border-radius: 7%;
+}
+
+.image-div{
+    text-align: center;
+}
+
+.item-list h5{
+    background: greenyellow;
+    display: inline-block;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.item-list h4{
+    padding: 10px;
+}
+
+.uploaditemlist img{
+    width: 70px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.uploaditemlist h6{
+    display: inline;
+}
+
+.item-list p{
+    text-align: justify;
+    direction: rtl;
+    padding: 10px;
+}
+
+.a-readmore{
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.Pagination{
+    margin-top: 50px;
+}
+
+.pagination-div{
+    display: grid;
+    grid-template-columns: auto  auto;
+}
+
+
+
+.page-item{
+    margin: 5px;
+}
+
+.page-item a{
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #333333;
+}
+
+.boxinfooter{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+
+.tag-footer{
+    margin-top: 50px;
+}
+
+
+.tag-footer ul{
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+
+.tag-footer li{
+    list-style-type: none;
+}
+
+.tag-footer li a{
+    text-decoration: none;
+    color: #999999;
+    transition: all ease 200ms;
+    font-size: 20px;
+}
+
+.tag-footer li a:hover{
+    color: white;
+}
+
+.connect-footer , .tag-footer , .about-footer{
+    padding: 20px;
+}
+
+.connect-footer{
+    margin-top: 50px;
+}
+
+.connect-footer h5{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+.connect-footer h5 a {
+    color: gray;
+    transition: all ease 200ms;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.connect-footer h5 a:hover{
+    color: white;
+}
+
+
+.textbottom-footer{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.times{
+    display: none;
+}
+
+@media only screen and (max-width:991px){
+    .list{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .item1 , .item2 , .item3 , .item4{
+        width: 90%;
+        height: 400px;
+    }
+
+    .boxinfooter{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: right;
+    }
+
+    .tag-footer{
+        display: block !important;
+        float: right;
+    }
+
+    .navbar-brand{
+        padding-top: 50px;
+        text-align: left;
+        float: none ;
+    }
+
+    .searchheader{
+        width: 100%;
+    }
+
+
+
+
+}
