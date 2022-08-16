@@ -1,12 +1,12 @@
 @font-face {
-    font-family: sinema;
-    src: url(/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf);
+    font-family: cinema;
+    src: url(font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf);
 }
 
 
 
 *{
-    font-family: sinema;
+    font-family: cinema;
 }
 
 p{
